@@ -16,5 +16,10 @@ const optionalTask: OptionalTodo = {
   title: "Clean room",
 };
 
-console.log(Task);
-console.log(optionalTask);
+// console.log(Task);
+// console.log(optionalTask);
+
+function reverseArr<T>(arr: T[]): T[] {
+  return arr.reverse();
+}
+console.log(reverseArr([1, 2, 3, 4, 5]));
